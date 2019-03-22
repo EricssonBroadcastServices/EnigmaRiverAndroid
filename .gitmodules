@@ -1,0 +1,6 @@
+[submodule "core"]
+	path = core
+	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidCore
+[submodule "exoplayerintegration"]
+	path = exoplayerintegration
+	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidExoPlayerIntegration
