@@ -22,7 +22,7 @@ allprojects {
         jcenter()
     }
     ext {
-        libraryTag = "r0.7";
+        libraryTag = "r1.0.2";
     }
     if (plugins.hasPlugin('com.android.library')) {
         //apply plugin: 'com.android.library'
