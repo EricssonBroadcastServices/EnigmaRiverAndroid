@@ -21,9 +21,6 @@ allprojects {
         google()
         jcenter()
     }
-    ext {
-        libraryTag = "r1.0.2";
-    }
     if (plugins.hasPlugin('com.android.library')) {
         //apply plugin: 'com.android.library'
         apply plugin: 'com.github.dcendents.android-maven'
