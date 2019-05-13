@@ -4,3 +4,6 @@
 [submodule "exoplayerintegration"]
 	path = exoplayerintegration
 	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidExoPlayerIntegration
+[submodule "tutorialApps"]
+	path = tutorialApps
+	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidTutorialApps
