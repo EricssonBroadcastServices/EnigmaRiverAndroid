@@ -7,3 +7,9 @@
 [submodule "tutorialApps"]
 	path = tutorialApps
 	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidTutorialApps
+[submodule "exposureUtils"]
+	path = exposureUtils
+	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidExposureUtils
+[submodule "internalTestUtils"]
+	path = internalTestUtils
+	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidInternalTestUtils
