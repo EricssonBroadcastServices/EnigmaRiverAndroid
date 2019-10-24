@@ -13,3 +13,6 @@
 [submodule "internalTestUtils"]
 	path = internalTestUtils
 	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidInternalTestUtils
+[submodule "cast"]
+	path = cast
+	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidCast
