@@ -1,1 +1,1 @@
-include ':core', ':exoplayerintegration', ':internalTestUtils', ':exposureUtils'
+include ':core', ':exoplayerintegration', ':internalTestUtils', ':exposureUtils', ':cast'
