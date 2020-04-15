@@ -16,3 +16,6 @@
 [submodule "cast"]
 	path = cast
 	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidCast
+[submodule "experimentalLowLatency"]
+	path = experimentalLowLatency
+	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidExperimentalLowLatency.git
