@@ -1,1 +1,6 @@
-include ':core', ':exoplayerintegration', ':internalTestUtils', ':exposureUtils', ':cast'
+include ':core'
+include ':exoplayerintegration'
+include  ':internalTestUtils'
+include ':exposureUtils'
+include ':cast'
+include ':experimentalLowLatency'
