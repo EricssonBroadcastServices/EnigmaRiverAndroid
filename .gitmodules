@@ -19,3 +19,9 @@
 [submodule "experimentalLowLatency"]
 	path = experimentalLowLatency
 	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidExperimentalLowLatency.git
+[submodule "download"]
+	path = download
+	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidDownload.git
+[submodule "exoPlayerDownload"]
+	path = exoPlayerDownload
+	url = https://github.com/EricssonBroadcastServices/EnigmaRiverAndroidExoPlayerDownload.git
