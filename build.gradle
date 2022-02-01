@@ -17,7 +17,7 @@ buildscript {
 }
 
 plugins {
-    id 'maven-publish'
+    id 'maven'
 }
 
 group='com.github.EricssonBroadcastServices'
