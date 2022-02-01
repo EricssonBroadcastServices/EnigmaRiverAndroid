@@ -20,6 +20,9 @@ plugins {
     id 'maven-publish'
 }
 
+group='com.github.EricssonBroadcastServices'
+
+
 
 allprojects {
     repositories {
@@ -28,7 +31,7 @@ allprojects {
     }
     if (plugins.hasPlugin('com.android.library')) {
         //apply plugin: 'com.android.library'
-        apply plugin: 'com.github.dcendents.android-maven'
+        //apply plugin: 'com.github.dcendents.android-maven'
         group='com.github.EricssonBroadcastServices'
 
         task sourcesJar(type: Jar) {
