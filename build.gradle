@@ -16,6 +16,11 @@ buildscript {
     }
 }
 
+plugins {
+    id 'maven-publish'
+}
+
+
 allprojects {
     repositories {
         google()
@@ -41,9 +46,6 @@ allprojects {
     }
 }
 
-plugins {
-    id 'maven-publish'
-}
 
 //task clean(type: Delete) {
 //    delete rootProject.buildDir
