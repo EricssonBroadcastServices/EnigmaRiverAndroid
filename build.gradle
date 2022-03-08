@@ -18,9 +18,9 @@ buildscript {
     }
 }
 
-plugins {
-    id 'maven-publish'
-}
+//plugins {
+//    id 'maven-publish'
+//}
 
 group='com.github.EricssonBroadcastServices'
 
@@ -50,6 +50,11 @@ allprojects {
         }
     }
 }
+
+configurations.all {
+  resolutionStrategy {
+    force 'androidx.core:core-ktx:1.6.0'
+}}
 
 
 //task clean(type: Delete) {
