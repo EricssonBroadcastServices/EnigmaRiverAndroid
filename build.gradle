@@ -49,6 +49,10 @@ allprojects {
             implementation 'androidx.annotation:annotation:1.0.0'
         }
     }
+    configurations.all {
+        all*.exclude group: "com.github.EricssonBroadcastServices.ExoPlayer", module: "exoplayer-robolectricutils"
+        all*.exclude module: 'exoplayer-robolectricutils'
+    }
 }
 
 configurations.all {
